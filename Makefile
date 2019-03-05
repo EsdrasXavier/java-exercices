@@ -11,6 +11,6 @@ default: classes
 classes: $(SOURCES)
 	$(JC) $(JFLAGS) $(SOURCES)
 
-clean: 
+clean:
 	$(RM) ./*/*.class
 

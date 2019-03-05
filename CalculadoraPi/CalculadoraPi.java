@@ -2,16 +2,16 @@ public class CalculadoraPi {
 
 	public static float mathPi(int n) {
 		float j = 1, pi = 0;
-	
+
 		for (int i = 0; i < n; i++) {
 			if (i % 2 == 0) pi -= 1 / j;
 			else pi += 1 / j;
-			
+
 			j += 2;
 		}
 
 		if (pi < 0) pi *= -1;
-		return (4 * pi);	
+		return (4 * pi);
 	}
 
 	public static float mathTheError(float n1, float n2) {
@@ -37,5 +37,5 @@ public class CalculadoraPi {
 
 	 3.141592653589793 * X = 100 * n
  	 x = (100 * n / 3.141592653589793)
-	
+
 */
